@@ -20,21 +20,14 @@ export const metadata: Metadata = {
       "Say goodbye to content planning, copy pasting, and manual publishing. Self-driving content has arrived.",
     type: "website",
     siteName: "Highway",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Highway - Self-Driving Content for Your Blog",
-      },
-    ],
+    // og image is generated dynamically via app/opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: "Highway - Self-Driving Content for Your Blog",
     description:
       "Say goodbye to content planning, copy pasting, and manual publishing. Self-driving content has arrived.",
-    images: ["/og-image.jpg"],
+    // og image is generated dynamically via app/opengraph-image.tsx
     creator: "@highway",
   },
   generator: "v0.app",
